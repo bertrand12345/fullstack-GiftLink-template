@@ -10,6 +10,9 @@ export default function Navbar() {
                     {/* Task 1: Add links to Home and Gifts below*/}
                 </ul>
             </div>
+            <li className="nav-item">
+                <Link className="nav-link" to="/app/search">Search</Link>
+            </li>
         </nav>
     );
 }
